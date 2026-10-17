@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/ttgf-4b-accumulator-cpu
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_4b_accumulator_cpu
+  project: 4 bit Accumulator CPU
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 928fa3e913200ca5c8aa30d02dbc33a46959ad55
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_4b_accumulator_cpu
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_4b_accumulator_cpu
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:19:06Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_4b_accumulator_cpu
+- upstream/main
